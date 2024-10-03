@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript String Methods</h1>
+<p>Oprav vetu dole tak, aby bola pravdivá:</p>
+
+<button onclick="myFunction()">Sem klikni</button>
+
+<p id="demo">Kujas s veľkým!</p>
+
+<script>
+function myFunction() {
+  let text = document.getElementById("demo").innerHTML; 
+  document.getElementById("demo").innerHTML =
+  text.replace("veľkým","malým");
+}
+</script>
+
+</body>
+</html>
